@@ -11,7 +11,7 @@ import { SamplesRoutes }    from './../samples/samples-routing';
 const appRoutes: Routes = [
   {
     path: 'samples',
-    component:  SamplesComponent
+    component:  <any>SamplesComponent
   },
   //{ path: '',
   //  redirectTo: '/samples',

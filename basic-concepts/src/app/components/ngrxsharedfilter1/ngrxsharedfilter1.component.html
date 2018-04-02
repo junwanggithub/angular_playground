@@ -1,0 +1,9 @@
+<p>
+  ngrxsharedfilter1
+</p>
+<p>selected {{timerange}}</p>
+<select [(ngModel)]="timerange" (change)="updateFilter()">
+  <option value="twohours">2 hours</option>
+  <option value="oneday">1 day</option>
+  <option value="onemonth">1 month</option>
+</select>
